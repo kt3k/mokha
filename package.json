@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "standard",
-    "test": "mocha spec"
+    "test": "mocha 'spec/**/*.js'",
+    "cov": "nyc --reporter=lcov npm test"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,12 @@
     "browserify": "^13.0.1",
     "chai": "^3.5.0",
     "mocha": "^2.5.3",
+    "nyc": "^6.4.4",
     "standard": "^7.1.2"
+  },
+  "nyc": {
+    "exclude": [
+      "spec/**/*"
+    ]
   }
 }
