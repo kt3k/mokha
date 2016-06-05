@@ -1,6 +1,8 @@
 # mokha v0.1.0 (WIP)
 
-> Simpler mocha
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
+> :coffee: Simpler mocha
 
 # Install
 
